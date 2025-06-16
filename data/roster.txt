@@ -1,0 +1,28 @@
+# Batters
+A Rutschman, C, 2022
+V Guerrero Jr, 1B, 2019
+S Horwitz, 1B/2B, 2023
+E Suarez, 3B, 2014
+G Perdomo, SS, 2021
+C Bellinger, OF/1B, 2017
+T Soderstrom, 1B, 2023
+M Trout, OF, 2011
+R Gonzalez, 2B/1B/SS, 2021
+T Stephenson, C, 2020
+L Nootbaar, OF, 2021
+L O'Hoppe, C, 2022
+
+# Pitchers
+N Cameron, SP, 2025
+E Diaz, RP, 2016
+T Kahnle, RP, 2014
+D Palencia, RP, 2023
+T Scott, RP, 2017
+S Smith, SP, 2025
+B Walter, SP, 2023
+L Castillo, SP, 2017
+
+# IL
+W Abreu, OF
+Y Alvarez, OF
+P Lopez, SP 
