@@ -21,5 +21,15 @@ PLAYER_NAME_MAPPING = {
     'L Castillo': 'Luis Castillo',
     'W Abreu': 'Wilyer Abreu',
     'Y Alvarez': 'Yordan Alvarez',
-    'P Lopez': 'Pablo Lopez'
+    'P Lopez': 'Pablo Lopez',
+    # more names
+    'C Raleigh': 'Cal Raleigh',
+    'K Tucker': 'Kyle Tucker',
+    'A Abbot': 'Austin Abbot',
+    'S Ohtani': 'Shohei Ohtani'
 } 
+
+def copy_dict_to_df(data_dict, df, index):
+    for key, value in data_dict.items():
+        df.loc[index, key] = value
+    return df

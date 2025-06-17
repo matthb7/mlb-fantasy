@@ -1,8 +1,19 @@
 import pandas as pd
 import logging
 import time
-from pybaseball import playerid_lookup, batting_stats_bref, pitching_stats_bref
-from player_name_mapping import PLAYER_NAME_MAPPING
+from pybaseball import playerid_lookup, batting_stats_bref, batting_stats, batting_stats_range, pitching_stats_bref
+from util import PLAYER_NAME_MAPPING
+
+# use mlbID for player reference
+def get_season_stats_bref(season=2025):
+    return batting_stats_bref(season)
+
+# use mlbID for player reference
+def get_season_stats(season=2025):
+    return batting_stats(season)
+
+def get_batting_states_range(start_date, end_date):
+    return batting_stats_range(start_date, end_date)
 
 def get_player_id(player_name, start_year):
     """Get player ID using playerid_lookup."""
